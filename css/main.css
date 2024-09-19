@@ -1,0 +1,114 @@
+
+
+.navbar-brand .logo {
+    max-height: 100px; /* Tamaño máximo que deseas para el logo */
+    height: auto;      /* Asegura que mantenga las proporciones */
+    width: auto;       /* Ajusta el ancho automáticamente */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Centra verticalmente el logo con el texto */
+}
+
+.carousel-inner img {
+    max-height:500px;   /* Ajusta este valor según el tamaño deseado */
+    object-fit: cover;  /* Recorta la imagen para que ocupe el espacio disponible sin distorsionarla */
+}
+
+.carousel {
+    max-height: 500px;  /* Ajusta este valor para controlar la altura máxima del carrusel */
+    overflow: hidden;   /* Asegura que el contenido que excede se recorte */
+}
+
+.carousel-caption h5 {
+    color:black;       /* Color del título */
+    font-size: 2rem;      /* Tamaño del título */
+}
+
+.carousel-caption p {
+    color: black;       /* Color del párrafo */
+    font-size: 1.25rem;   /* Tamaño del párrafo */
+}
+
+
+.about_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.about_row.reverse {
+    flex-direction: row-reverse;
+}
+
+.about_texts {
+    flex: 1;
+    padding: 20px;
+}
+
+.about_img {
+    flex: 1;
+    text-align: center;
+}
+
+.about_pic {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo_img .about_pic {
+    max-width: 50%; /* Reducción del tamaño del logo a la mitad */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text_edit, .text_edit2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about_paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+
+.text_edit2 {
+    text-align: center; /* Centramos el h5 */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:rgb(30, 27, 31);
+    padding: 5px 0;
+    text-align: center;
+    
+}
+
+
+
+
+.iconos-redes-footer{
+    text-align: center;
+    width: 20px;
+    margin-right: 20px;
+    color:white;
+}
